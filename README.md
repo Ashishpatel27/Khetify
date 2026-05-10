@@ -23,8 +23,10 @@ A high-performance B2C marketplace platform designed to empower farmers by conne
 # npm install express mysql2 cors body-parser
 # node server.js
 
-Install Frontend Dependencies
-Bash
+---
+
+### # Install Frontend Dependencies
+```Bash
 cd frontend
 npm install axios lucide-react tailwindcss
 npm start
