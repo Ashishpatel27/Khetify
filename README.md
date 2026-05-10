@@ -13,21 +13,17 @@ A high-performance B2C marketplace platform designed to empower farmers by conne
 
 ## 🛠️ How to Run
 ```bash
-### # Database Setup
-# Open your MySQL terminal.
-# Create a database named khetify_db.
-# Import the provided SQL schema for products, users, and orders tables.
+# Database Setup
+Open your MySQL terminal.
+Create a database named khetify_db.
+Import the provided SQL schema for products, users, and orders tables.
 
-### # Install Backend Dependencies
+# Install Backend Dependencies
+cd backend
+npm install express mysql2 cors body-parser
+node server.js
 
-# cd backend
-# npm install express mysql2 cors body-parser
-# node server.js
-
----
-
-### # Install Frontend Dependencies
-
-# cd frontend
-# npm install axios lucide-react tailwindcss
-# npm start
+# Install Frontend Dependencies
+cd frontend
+npm install axios lucide-react tailwindcss
+npm start
